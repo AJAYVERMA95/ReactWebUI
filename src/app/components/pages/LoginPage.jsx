@@ -1,18 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import LoginForm from '../forms/LoginForm.jsx';
+import LoginForm from "../forms/LoginForm.jsx";
 
 class LoginPage extends React.Component {
-    
-    submit(data){
+    submit(data) {
         console.log(data);
     }
-    
-    render(){
-        return(
+
+    render() {
+        return (
             <div>
-                <h1>Login Page</h1> 
-                <LoginForm submit={this.submit.bind(this)}/>
+                <h1>Login Page</h1>
+                <LoginForm submit={this.submit.bind(this)} />
             </div>
         );
     }

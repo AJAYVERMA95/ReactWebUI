@@ -1,10 +1,8 @@
-import React from 'react';
+import React from "react";
 
 class InlineError extends React.Component {
     render() {
-        return (
-            <span style={{ color: "red" }}>{this.props.text}</span>
-        );
+        return <span style={{ color: "red" }}>{this.props.text}</span>;
     }
 }
 
